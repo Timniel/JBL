@@ -272,15 +272,66 @@ input[type="text"] {
   /* padding-bottom: 1000px; */
 }
 /* Partner */
-
+#partner {
+  background: #fcfbfb;
+}
 #partner .container {
-  background: #fff;
   padding: 20px 0px;
 }
 
 .partner-img {
   width: 150px;
   height: 100px;
+}
+
+/* What For */
+#whatfor {
+  text-align: center;
+  padding: 100px 0px;
+  margin: auto;
+  width: 100%;
+}
+#whatfor h1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  color: #000000;
+  margin-bottom: 50px;
+}
+
+#whatfor .card {
+  width: 270px;
+  height: 323px;
+  padding: 60px 10px;
+  background: #ffffff;
+  border: 0px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+#whatfor .icon {
+  margin: auto;
+  color: #ff592b;
+  padding: 10px 0px;
+}
+
+#whatfor h3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+}
+#whatfor p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 450;
+  font-size: 12.3px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
 }
 
 /* Mobile  */
@@ -296,10 +347,10 @@ input[type="text"] {
     background: #fff7f5;
   } */
 
-.partner-img {
-  width: 100px;
-  height: 100px;
-}
+  .partner-img {
+    width: 100px;
+    height: 100px;
+  }
 
   .fa-search {
     display: none;
@@ -397,162 +448,14 @@ input[type="text"] {
     line-height: 20px;
     text-align: center;
   }
-}
 
-/* 
-#top {
-  background: #fff7f5;
-  padding-top: 120px;
+  #whatfor .card {
+    width: 270px;
+    height: 323px;
+    padding: 60px 10px;
+    background: #ffffff;
+    border: 0px;
+    margin: auto;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
+  }
 }
-#top .container {
-  width: 100%;
-  padding-bottom: 127px;
-}
-#top h1 {
-  margin-top: 100px;
-  height: 128px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 35px;
-  line-height: 64px;
-  color: #000000;
-}
-#top p {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 32px;
-}
-.shop-btn {
-  background: #ff592b;
-  border-radius: 8px;
-  border: 0px;
-}
-.shop-btn .text {
-  width: 100px;
-  margin-top: 5px;
-  height: 25px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 28px;
-  color: #ffffff;
-}
-.explore-btn {
-  border-radius: 8px;
-  border: 1px solid #ff592b;
-  border-radius: 8px;
-}
-.explore-btn .text {
-  width: 100px;
-  margin-top: 5px;
-  height: 25px;
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 28px;
-  color: #ff592b;
-}
-.broken-circle {
-  box-sizing: border-box;
-  margin: 50px 0px 0px 60px;
-  width: 380px;
-  height: 380px;
-  color: #000000;
-  transform: rotate(-145.14deg);
-}
-.woman {
-  position: absolute;
-  width: 500px;
-  height: 580px;
-  right: 100px;
-  top: 180px;
-  filter: drop-shadow(10px 20px 40px rgba(30, 30, 30, 0.2));
-}
-.small-img1 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  right: 420px;
-  top: 190px;
-}
-.small-img2 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  right: 190px;
-  top: 300px;
-}
-.small-img3 {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  right: 560px;
-  top: 410px;
-}
-.card1 {
-  position: absolute;
-  width: 200px;
-  height: 70px;
-  right: 470px;
-  top: 533px;
-  background: #ffffff;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  padding: 5px;
-}
-.card2 {
-  position: absolute;
-  width: 200px;
-  height: 70px;
-  right: 130px;
-  top: 595px;
-  background: #ffffff;
-  box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
-  border-radius: 12px;
-  padding: 5px;
-}
-#top .text {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 20px;
-  text-align: center;
-}
-.special-img {
-  margin-left: 40px;
-}
-.small-img4 {
-  width: 30px;
-  height: 30px;
-  margin-left: -20px;
-  text-align: left;
-}
-.small-img5 {
-  width: 35px;
-  height: 35px;
-  margin-left: -20px;
-  text-align: left;
-  margin-top: 5px;
-}
-.small-img6 {
-  width: 10px;
-  height: 10px;
-  margin-left: -26px;
-  text-align: left;
-}
-#partner .container-fluid {
-  width: 100%;
-  background: #fcfbfb;
-  z-index: 10;
-  position: relative;
-}
-.second {
-  display: block;
-  text-align: center;
-}/*
