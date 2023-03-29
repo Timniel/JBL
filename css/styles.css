@@ -340,22 +340,32 @@ input[type="text"] {
 #feature {
   width: 100%;
   background: #fffcfc;
+  margin: auto;
+  text-align: center;
+}
+
+#feature .position-relative {
+  margin: auto;
 }
 
 .headphone {
   width: 700px;
+  position: absolute;
+  left: 20px;
 }
 .block {
   display: block;
+  margin: auto;
 }
 
 .headphone-transparent {
   position: absolute;
   top: 10px;
-  left: -100px;
+  left: -30px;
   width: 420px;
   z-index: -1;
 }
+
 /* Mobile  */
 
 @media only screen and (max-width: 768px) {
@@ -470,16 +480,15 @@ input[type="text"] {
     line-height: 20px;
     text-align: center;
   }
-
   .headphone {
     width: 300px;
-    margin: auto;
+    position: absolute;
+    left: 70px;
   }
-
   .headphone-transparent {
     position: absolute;
-    top: 10px;
-    left: -20px;
+    top: -40px;
+    left: 10px;
     width: 220px;
     z-index: -1;
   }
