@@ -290,6 +290,10 @@ input[type="text"] {
     padding-top: 20px;
   }
 
+  #top .container {
+    background: #fff7f5;
+    padding-bottom: 130px;
+  }
   .partner-img {
   }
 
