@@ -335,6 +335,30 @@ input[type="text"] {
   color: #000000;
 }
 
+/* Features */
+
+#feature {
+  background: #fffcfc;
+}
+
+#feature .container {
+  width: 1728px;
+  height: 908px;
+}
+.headphone {
+  width: 700px;
+}
+.block {
+  display: block;
+}
+
+.headphone-transparent {
+  position: absolute;
+  top: 10px;
+  left: -100px;
+  width: 420px;
+  z-index: -1;
+}
 /* Mobile  */
 
 @media only screen and (max-width: 768px) {
@@ -448,5 +472,17 @@ input[type="text"] {
     font-size: 10px;
     line-height: 20px;
     text-align: center;
+  }
+
+  .headphone {
+    width: 420px;
+  }
+
+  .headphone-transparent {
+    position: absolute;
+    top: 10px;
+    left: -20px;
+    width: 220px;
+    z-index: -1;
   }
 }
