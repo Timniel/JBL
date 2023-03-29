@@ -313,7 +313,7 @@ input[type="text"] {
   }
   .col2boxed {
     display: block;
-    padding-bottom: 280px;
+    padding-bottom: 0px;
   }
   .broken-circle {
     position: absolute;
