@@ -483,12 +483,12 @@ input[type="text"] {
   .headphone {
     width: 300px;
     position: absolute;
-    left: 90px;
+    left: 70px;
   }
   .headphone-transparent {
     position: absolute;
     top: -20px;
-    left: 70px;
+    left: 50px;
     width: 220px;
     z-index: -1;
   }
