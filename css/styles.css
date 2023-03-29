@@ -338,13 +338,10 @@ input[type="text"] {
 /* Features */
 
 #feature {
+  width: 100%;
   background: #fffcfc;
 }
 
-#feature .container {
-  width: 1728px;
-  height: 908px;
-}
 .headphone {
   width: 700px;
 }
@@ -475,7 +472,8 @@ input[type="text"] {
   }
 
   .headphone {
-    width: 400px;
+    width: 300px;
+    margin: auto;
   }
 
   .headphone-transparent {
