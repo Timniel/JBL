@@ -290,6 +290,9 @@ input[type="text"] {
     padding-top: 20px;
   }
 
+  .partner-img {
+  }
+
   .fa-search {
     display: none;
   }
@@ -310,7 +313,7 @@ input[type="text"] {
   }
   .col2boxed {
     display: block;
-    padding-bottom: 325px;
+    padding-bottom: 315px;
   }
   .broken-circle {
     position: absolute;
