@@ -91,7 +91,6 @@ input[type="text"] {
 
 #top .position-relative {
   background: #fff7f5;
-  padding-bottom: 180px;
 }
 
 #top h1 {
@@ -266,15 +265,15 @@ input[type="text"] {
   text-align: left;
 }
 
+.col2boxed {
+  display: block;
+  text-align: center;
+  padding-bottom: 495px;
+}
 /* Partner */
 
 #partner .container-fluid {
   background: #fcfbfb;
-}
-
-.col2boxed {
-  display: block;
-  text-align: center;
 }
 
 .partner-img {
@@ -290,10 +289,9 @@ input[type="text"] {
     padding-top: 20px;
   }
 
-  #top .container {
+  /* #top .position-relative {
     background: #fff7f5;
-    padding-bottom: 130px;
-  }
+  } */
   .partner-img {
   }
 
@@ -317,7 +315,6 @@ input[type="text"] {
   }
   .col2boxed {
     display: block;
-    padding-bottom: 0px;
   }
   .broken-circle {
     position: absolute;
