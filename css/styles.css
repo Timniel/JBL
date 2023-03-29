@@ -275,8 +275,8 @@ input[type="text"] {
 #partner {
   background: #fcfbfb;
 }
-#partner .container {
-  padding: 20px 0px;
+#partner {
+  padding-top: 20px;
 }
 
 .partner-img {
@@ -307,6 +307,7 @@ input[type="text"] {
   padding: 60px 10px;
   background: #ffffff;
   border: 0px;
+  margin: auto;
   box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
 }
 
@@ -447,15 +448,5 @@ input[type="text"] {
     font-size: 10px;
     line-height: 20px;
     text-align: center;
-  }
-
-  #whatfor .card {
-    width: 270px;
-    height: 323px;
-    padding: 60px 10px;
-    background: #ffffff;
-    border: 0px;
-    margin: auto;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.15);
   }
 }
