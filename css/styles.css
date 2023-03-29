@@ -452,7 +452,7 @@ input[type="text"] {
     position: absolute;
     width: 150px;
     height: 70px;
-    right: 250px;
+    right: 230px;
     top: 753px;
     background: #ffffff;
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
@@ -464,7 +464,7 @@ input[type="text"] {
     position: absolute;
     width: 150px;
     height: 70px;
-    right: 0px;
+    right: 20px;
     top: 793px;
     background: #ffffff;
     box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
