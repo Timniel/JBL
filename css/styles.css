@@ -536,9 +536,9 @@ input[type="text"] {
     line-height: 64px;
     color: #000000;
     margin-top: 280px;
-    margin-left: 10px;
+    margin-left: 10%;
     text-align: center;
-    width: 300px;
+    width: 80%;
   }
 
   #features h3 {
@@ -550,13 +550,13 @@ input[type="text"] {
   }
 
   #features p {
-    width: 350px;
+    width: 80%;
     font-family: "Mulish";
     font-style: normal;
     font-weight: 450;
     font-size: 12px;
     line-height: 20px;
-    margin-left: 20px;
+    margin-left: 15%;
   }
 
   #feature .sec-col {
@@ -569,7 +569,7 @@ input[type="text"] {
     border-radius: 100%;
     background: #ff592b;
     /* ORANGE/SHADOW */
-    margin-left: 10px;
+    margin-left: 10%;
     display: inline-block;
     box-shadow: 0px 4px 10px rgba(255, 89, 43, 0.1);
   }
