@@ -795,9 +795,7 @@ input[type="text"] {
     line-height: 32px;
     width: 360px;
   }
-  #explore .container {
-    margin: auto;
-  }
+
   /* .speaker1 {
     display: inline-block;
     width: 40%;
@@ -810,6 +808,7 @@ input[type="text"] {
     height: 95%;
   } */
 
-  .speakers {
+  #explore {
+    margin-top: 50px;
   }
 }
