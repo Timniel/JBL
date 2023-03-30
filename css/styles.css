@@ -644,9 +644,8 @@ input[type="text"] {
     margin-left: 15%;
   }
   #explore {
-    width: 100%;
     background: #fff;
-    margin: auto;
+
     margin-top: 50px;
   }
   #explore p {
