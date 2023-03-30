@@ -650,7 +650,18 @@ input[type="text"] {
     font-weight: 500;
     font-size: 19px;
     line-height: 32px;
-    width: 380px;
+    width: 350px;
+  }
+
+  .speaker1 {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
+  }
+  .speaker2 {
+    display: inline-block;
+    width: 150px;
+    height: 200px;
   }
 }
 
