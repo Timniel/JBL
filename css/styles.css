@@ -56,8 +56,8 @@ input[type="text"] {
 
 .fa-search {
   position: absolute;
-  right: 28.5%;
-  top: 43px;
+  right: 25.5%;
+  top: 35px;
   bottom: 17.86%;
   color: #999999;
   font-size: 12px;
@@ -113,11 +113,6 @@ input[type="text"] {
   line-height: 32px;
 }
 
-/* .top-col {
-  padding-left: 120px;
-  padding-top: 50px;
-} */
-
 .shop-btn {
   background: #ff592b;
   border-radius: 8px;
@@ -137,9 +132,10 @@ input[type="text"] {
   height: 25px;
   font-family: "Mulish";
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 28px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
 }
 
 .explore-btn {
@@ -345,9 +341,9 @@ input[type="text"] {
 }
 
 .headphone {
-  width: 140%;
+  width: 650px;
   position: absolute;
-  left: -50px;
+  left: -30px;
 }
 .block {
   display: block;
@@ -357,7 +353,7 @@ input[type="text"] {
   position: absolute;
   top: 10px;
   left: -80px;
-  width: 80%;
+  width: 400px;
   z-index: -1;
 }
 
@@ -368,6 +364,8 @@ input[type="text"] {
   font-size: 30px;
   line-height: 64px;
   color: #000000;
+  /* width: 0%; */
+  margin-bottom: 20px;
 }
 
 #features h3 {
@@ -384,12 +382,14 @@ input[type="text"] {
   font-weight: 450;
   font-size: 12px;
   line-height: 20px;
-
-  width: 450px;
+  margin-left: 20px;
+  width: 80%;
+  margin-bottom: 5%;
 }
 
-#feature .sec-col {
+#features .sec-col {
   display: block;
+  position: relative;
 }
 
 .dot {
@@ -559,7 +559,7 @@ input[type="text"] {
     margin-left: 15%;
   }
 
-  #feature .sec-col {
+  #features .sec-col {
     display: block;
   }
 
@@ -572,5 +572,124 @@ input[type="text"] {
     margin-left: 10%;
     display: inline-block;
     box-shadow: 0px 4px 10px rgba(255, 89, 43, 0.1);
+  }
+
+  #features .shop-btn {
+    background: #ff592b;
+    border-radius: 8px;
+    border: 0px;
+    color: #ffffff;
+    margin-left: 15%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  /* CSS rules for screens between 768px and 1024px wide */
+
+  #features .sec-col {
+    display: block;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 100px;
+  }
+  .fa-search {
+    display: none;
+  }
+  .fa-cart-shopping {
+    display: none;
+  }
+
+  #top h1 {
+    margin-top: 100px;
+    height: 128px;
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 30px;
+    line-height: 64px;
+    color: #000000;
+    width: 350px;
+  }
+  #top .container {
+    background: #fff7f5;
+    height: 580px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  #top p {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    width: 320px;
+  }
+
+  .broken-circle {
+    box-sizing: border-box;
+    margin: 50px 0px 0px 60px;
+    width: 380px;
+    height: 380px;
+    color: #000000;
+    position: absolute;
+    right: -40px;
+    top: 10px;
+  }
+
+  .woman {
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    right: -60px;
+    top: 130px;
+    filter: drop-shadow(10px 20px 40px rgba(30, 30, 30, 0.2));
+  }
+
+  .small-img1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 180px;
+    top: 40px;
+  }
+
+  .small-img2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: -50px;
+    top: 160px;
+  }
+
+  .small-img3 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 320px;
+    top: 260px;
+  }
+
+  .card1 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    right: 180px;
+    top: 393px;
+    background: #ffffff;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 5px;
+  }
+
+  .card2 {
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    right: -80px;
+    top: 455px;
+    background: #ffffff;
+    box-shadow: 8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+    padding: 5px;
   }
 }
