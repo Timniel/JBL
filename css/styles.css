@@ -532,23 +532,25 @@ input[type="text"] {
     font-family: "Mulish";
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 64px;
     color: #000000;
     margin-top: 280px;
     margin-left: 10px;
+    text-align: center;
+    width: 300px;
   }
 
   #features h3 {
     font-family: "Mulish";
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 28px;
   }
 
   #features p {
-    width: 400px;
+    width: 350px;
     font-family: "Mulish";
     font-style: normal;
     font-weight: 450;
