@@ -643,6 +643,9 @@ input[type="text"] {
     color: #ffffff;
     margin-left: 15%;
   }
+  #explore {
+    margin-top: 50px;
+  }
 
   #explore p {
     font-family: "Mulish";
@@ -650,7 +653,7 @@ input[type="text"] {
     font-weight: 500;
     font-size: 19px;
     line-height: 32px;
-    width: 80%;
+    width: 100%;
   }
 
   .speaker1 {
