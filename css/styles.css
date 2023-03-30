@@ -177,10 +177,10 @@ input[type="text"] {
 
 .woman {
   position: absolute;
-  width: 500px;
-  height: 580px;
-  right: -40px;
-  top: 40px;
+  width: 400px;
+  height: 450px;
+  right: 50px;
+  top: 130px;
   filter: drop-shadow(10px 20px 40px rgba(30, 30, 30, 0.2));
 }
 
@@ -417,10 +417,10 @@ input[type="text"] {
 
   .woman {
     position: absolute;
-    width: 360px;
-    height: 440px;
-    right: -12px;
-    top: 495px;
+    width: 280px;
+    height: 336px;
+    right: 51px;
+    top: 565px;
     filter: drop-shadow(10px 20px 40px rgba(30, 30, 30, 0.2));
   }
 
@@ -444,8 +444,8 @@ input[type="text"] {
     position: absolute;
     width: 40px;
     height: 40px;
-    right: 320px;
-    top: 670px;
+    right: 310px;
+    top: 660px;
   }
 
   .card1 {
