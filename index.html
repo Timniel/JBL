@@ -1,230 +1,326 @@
+<!DOCTYPE html>
+
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/1df8677007.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/1df8677007.js"
+      crossorigin="anonymous"
+    ></script>
 
     <title>JBL</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="top-bar">
-        <nav class="navbar navbar-expand-xl fixed-top">
-            <div class="container position-relative">
-                <a class="navbar-brand logo" href="#"><img src="image 2.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      <nav class="navbar navbar-expand-xl fixed-top">
+        <div class="container position-relative">
+          <a class="navbar-brand logo" href="#"
+            ><img src="image 2.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav ms-5">
-                        <li class="nav-item">
-                            <a aria-current="page" href="#" class="nav-link mx-1 nav-text current-page">Home <div class="home-line">
-                                </div></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-1 nav-text" href="#">Headphones</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-1 nav-text" href="#">Speakers</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link mx-1 nav-text" href="#">Gaming</a>
-                        </li>
-                        <li class="nav-item nav-text">
-                            <a class="nav-link me-3 nav-text" href="#">Sales</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-search icon"></i>
-                            <input type="text" placeholder="Search products">
-
-                        </li>
-                        <li>
-                            <div class="circle"> <i class="fa fa-cart-shopping"></i> </div>
-                        </li>
-                    </ul>
-                </div>
-        </nav>
-
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-2 ml-auto">
+              <li class="nav-item">
+                <a
+                  aria-current="page"
+                  href="#"
+                  class="nav-link mx-1 nav-text current-page page1"
+                  >Home
+                  <div class="home-line"></div
+                ></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1 nav-text" href="#">Headphones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1 nav-text" href="#">Speakers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-1 nav-text" href="#">Gaming</a>
+              </li>
+              <li class="nav-item nav-text">
+                <a class="nav-link me-3 nav-text" href="#">Sales</a>
+              </li>
+            </ul>
+            <li>
+                 <ul class="navbar-nav d-lg-inline-flex">
+                <li class="nav-item">
+                   <i class="fas fa-search icon"></i>
+              <input type="text" placeholder="Search products" />          </li>
+                <li class="nav-item mx-2">
+                   <div class="circle"><i class="fa fa-cart-shopping"></i></div>    </li>
+          </div>
+        </div>
+      </nav>
     </div>
-   
-        <!-- TOP -->
-          <section id="top">
-            <div class="container position-relative">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 top-col">
-  <h1>
-                Experience sound like never before with JBL.
-               </h1> 
-               <p>
-                Experience the full power and beauty of your music with our top-of-the-line speakers. Order yours today and hear the difference for yourself!
-               </p>
-               
-               <button type="button" class="btn btn-primary btn-lg shop-btn me-3"><div class="text">Shop Now</div> </button>    
-                  <button type="button" class="btn btn-lg explore-btn"><div class="text">Explore</div></button> 
-                    </div>
 
-                     <div class="col-xl-12 col-lg-6">
-                     <div class="col2boxed">
-                      <img src="Ellipse 2 (2).png" alt="" class="broken-circle">
-                       <img src="woman.png" alt="" class="woman">
-                   <img src="Ellipse 9 (2).png" alt="" class="small-img1">
-                        <img src="Ellipse 11.png" alt="" class="small-img2">
-                      <img src="Ellipse 10.png" alt="" class="small-img3">
-                   
-   <div class="card1"><div class="text">100M+ Happy Customers</div>
-                    <div class="special-img">
-                <img src="Ellipse 12.png" alt="" class="small-img4">
-                  <img src="Ellipse 13.png" alt="" class="small-img4">
-                    <img src="Ellipse 14.png" alt="" class="small-img4">
-                      <img src="Ellipse 15.png" alt="" class="small-img5">
-                      <img src="Vector (18).png" alt="" class="small-img6">
-                </div></div>
-                                    <div class="card2"> <div class="text">100M+ Happy Customers</div>
-                    <div class="special-img">
-                <img src="Ellipse 12.png" alt="" class="small-img4">
-                  <img src="Ellipse 13.png" alt="" class="small-img4">
-                    <img src="Ellipse 14.png" alt="" class="small-img4">
-                      <img src="Ellipse 15.png" alt="" class="small-img5">
-                      <img src="Vector (18).png" alt="" class="small-img6">
-                </div></div> </div> </div>
+    <!-- TOP -->
+    <section id="top">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-xs-12 col-lg-6 top-col">
+            <h1>Experience sound like never before with JBL.</h1>
+            <p>
+              Experience the full power and beauty of your music with our
+              top-of-the-line speakers. Order yours today and hear the
+              difference for yourself!
+            </p>
+
+            <button type="button" class="btn btn-primary btn-lg shop-btn me-3">
+              <div class="text">Shop Now</div>
+            </button>
+            <button type="button" class="btn btn-lg explore-btn">
+              <div class="text">Explore</div>
+            </button>
+          </div>
+
+          <div class="col-xl-12 col-lg-6">
+            <div class="col2boxed">
+              <img src="Ellipse 2 (2).png" alt="" class="broken-circle" />
+              <img src="woman.png" alt="" class="woman" />
+              <img src="Ellipse 9 (2).png" alt="" class="small-img1" />
+              <img src="Ellipse 11.png" alt="" class="small-img2" />
+              <img src="Ellipse 10.png" alt="" class="small-img3" />
+
+              <div class="card1">
+                <div class="text">100M+ Happy Customers</div>
+                <div class="special-img">
+                  <img src="Ellipse 12.png" alt="" class="small-img4" />
+                  <img src="Ellipse 13.png" alt="" class="small-img4" />
+                  <img src="Ellipse 14.png" alt="" class="small-img4" />
+                  <img src="Ellipse 15.png" alt="" class="small-img5" />
+                  <img src="Vector (18).png" alt="" class="small-img6" />
                 </div>
+              </div>
+              <div class="card2">
+                <div class="text">100M+ Happy Customers</div>
+                <div class="special-img">
+                  <img src="Ellipse 12.png" alt="" class="small-img4" />
+                  <img src="Ellipse 13.png" alt="" class="small-img4" />
+                  <img src="Ellipse 14.png" alt="" class="small-img4" />
+                  <img src="Ellipse 15.png" alt="" class="small-img5" />
+                  <img src="Vector (18).png" alt="" class="small-img6" />
+                </div>
+              </div>
             </div>
-          </section>
-          
-          <!-- Partner -->
+          </div>
+        </div>
+      </div>
+    </section>
 
-          <section id ="partner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-lg-2">
-                        <img src="akg.png" alt="" class="partner-img">
-                    </div>
-                     <div class="col-4 col-lg-2">
-                        <img src="harman.png" alt="" class="partner-img">
-                    </div>
-                     <div class="col-4 col-lg-2">
-                        <img src="infinity.png" alt="" class="partner-img">
-                    </div>
-                     <div class="col-4 col-lg-2">
-                        <img src="jbl.png" alt="" class="partner-img">
-                    </div>
-                     <div class="col-4 col-lg-2">
-                        <img src="lexicon.png" alt="" class="partner-img">
-                    </div>
-                     <div class="col-4 col-lg-2">
-                        <img src="revel.png" alt="" class="partner-img">
-                    </div>
-                </div>
+    <!-- Partner -->
+
+    <section id="partner">
+      <div class="container">
+        <div class="row">
+          <div class="col-4 col-lg-2">
+            <img src="akg.png" alt="" class="partner-img" />
+          </div>
+          <div class="col-4 col-lg-2">
+            <img src="harman.png" alt="" class="partner-img" />
+          </div>
+          <div class="col-4 col-lg-2">
+            <img src="infinity.png" alt="" class="partner-img" />
+          </div>
+          <div class="col-4 col-lg-2">
+            <img src="jbl.png" alt="" class="partner-img" />
+          </div>
+          <div class="col-4 col-lg-2">
+            <img src="lexicon.png" alt="" class="partner-img" />
+          </div>
+          <div class="col-4 col-lg-2">
+            <img src="revel.png" alt="" class="partner-img" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- What For -->
+
+    <section id="whatfor">
+      <div class="container">
+        <h1>Why you should use JBL?</h1>
+        <div class="row">
+          <div class="col-xs-12 col-md-6 col-xl-3">
+            <div class="card mb-4">
+              <img
+                src="Vector (19).png"
+                alt=""
+                class="icon"
+                style="padding-bottom: 20px"
+              />
+              <br />
+              <h3>Wireless connectivity</h3>
+              <p>
+                JBL speakers come with Bluetooth or Wi-Fi connectivity, which
+                allows you to connect to your smartphone, tablet, or laptop
+                without the need for wires.
+              </p>
             </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+            <div class="card mb-4">
+              <img
+                src="Vector (20).png"
+                alt=""
+                class="icon"
+                style="padding-bottom: 45px"
+              />
+              <h3>High-quality sound</h3>
+              <p style="width: 215px; margin: auto">
+                JBL speakers are known for their high-quality sound, with clear
+                and accurate audio that can fill a room or outdoor space.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+            <div class="card mb-4">
+              <img src="Vector (21).png" alt="" class="icon" /> <br />
+              <h3>Long battery life</h3>
+              <p style="width: 215px; margin: auto">
+                JBL speakers come with rechargeable batteries that can provide
+                several hours of playback time, depending on the model.
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-xl-3">
+            <div class="card mb-4">
+              <i
+                class="fa-solid fa-volume-high icon"
+                style="font-size: 60px"
+              ></i>
+              <br />
+              <h3>Voice control</h3>
+              <p>
+                Some JBL speakers come with built-in voice assistants such as
+                Amazon Alexa or Google Assistant, allowing you to control the
+                speaker with voice commands.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-          </section>
+    <!-- Features -->
 
-            <!-- What For -->
+    <section id="features">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-6 position-relative">
+            <div class="block">
+              <img src="headphone.png" alt="" class="headphone" />
 
-          <section id ="whatfor">
-            <div class="container">
-                <h1>Why you should use JBL?</h1>
-                <div class="row">
-                    <div class="col-xs-12 col-md-6 col-xl-3">
-                        <div class="card mb-4">
-                          <img src="Vector (19).png" alt="" class="icon" style="padding-bottom: 20px;"> <br>
-                            <h3>Wireless connectivity</h3>
-                            <p>JBL speakers come with Bluetooth or Wi-Fi connectivity, which allows you to connect to your smartphone, tablet, or laptop without the need for wires.</p>
-                        </div>
-                    </div>
-                     <div class="col-xs-12 col-md-6 col-xl-3">
-<div class="card  mb-4">
-                           <img src="Vector (20).png" alt="" class="icon" style="padding-bottom: 45px;"> 
-                            <h3>High-quality sound</h3>
-                            <p style="width:215px; margin: auto;">JBL speakers are known for their high-quality sound, with clear and accurate audio that can fill a room or outdoor space.</p>
-                        </div>
-                    </div>
-                     <div class="col-xs-12 col-md-6 col-xl-3">
-<div class="card  mb-4">
-                           <img src="Vector (21).png" alt="" class="icon"> <br>
-                            <h3>Long battery life</h3>
-                            <p style="width:215px; margin: auto;">JBL speakers come with rechargeable batteries that can provide several hours of playback time, depending on the model.</p>
-                        </div>
-                    </div>
-                     <div class="col-xs-12 col-md-6 col-xl-3">
-<div class="card mb-4">
-                            <i class="fa-solid fa-volume-high icon" style="font-size:60px"></i> <br>
-                            <h3>Voice control</h3>
-                            <p>Some JBL speakers come with built-in voice assistants such as Amazon Alexa or Google Assistant, allowing you to control the speaker with voice commands.</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-                </section>
+              <img
+                src="headphone-transparent.png"
+                alt=""
+                class="headphone-transparent"
+              />
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-6 sec-col">
+            <h1>Outstanding headphone features</h1>
 
+            <h3>
+              <div class="dot"></div>
+              Noise isolation/cancellation
+            </h3>
+            <p>
+              JBL headphones come with noise isolation technology, which can
+              block out external noise and create a more immersive listening
+              experience.
+            </p>
 
-            <!-- Features -->
+            <h3>
+              <div class="dot"></div>
+              Built-in microphone
+            </h3>
+            <p>
+              JBL headphones come with noise isolation technology, which can
+              block out external noise and create a more immersive listening
+              experience.
+            </p>
 
-          <section id ="features">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-lg-6 position-relative">
-                        <div class="block">
-                        <img src="headphone.png" alt="" class="headphone">
-                        
-                        <img src="headphone-transparent.png" alt="" class="headphone-transparent">
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-lg-6 sec-col">
-                        <h1>
-                          Outstanding headphone features
-                        </h1>
-                   
-                        
-                                <h3><div class="dot"></div> Noise isolation/cancellation</h3>
-                                 <p>JBL headphones come with noise isolation technology, which can block out external noise and create a more immersive listening experience.</p>
-                        
-                        
-                                <h3><div class="dot"></div> Built-in microphone</h3>
-                                <p>JBL headphones come with noise isolation technology, which can block out external noise and create a more immersive listening experience.</p>
-                          
-                                <h3><div class="dot"></div> Noise isolation/cancellation</h3>
-                                <p>JBL headphones come with noise isolation technology, which can block out external noise and create a more immersive listening experience.</p>
-                                          <button type="button" class="btn btn-primary btn-lg shop-btn ms-md-4"><div class="text">Shop Now</div> </button>  
-                    </div>
-                </div>
-  </div></section>
-            <!-- Features -->
+            <h3>
+              <div class="dot"></div>
+              Noise isolation/cancellation
+            </h3>
+            <p>
+              JBL headphones come with noise isolation technology, which can
+              block out external noise and create a more immersive listening
+              experience.
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary btn-lg shop-btn ms-md-4"
+            >
+              <div class="text">Shop Now</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Features -->
 
-          <section id ="explore">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-6">
-                        <h1>
-                            Explore all our excellent and high quality products
-                        </h1>
-                        <p>Whether you're looking to upgrade your home audio system, add a new dimension to your gaming setup, or bring your music to life on the go, our speakers have you covered.</p>
-                    <button type="button" class="btn btn-lg explore-btn"><div class="text">Explore</div></button> 
-                 
-                    </div>
-                   
-                    <div class="col-xs-12 col-md-6 speakers">
-                        <img src="small jbl.png" alt="" class="speaker1">
-                           <img src="big jbl.png" alt="" class="speaker2">
-                    </div>
-                </div>
-            </div></section>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
+    <section id="explore">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <h1>Explore all our excellent and high quality products</h1>
+            <p>
+              Whether you're looking to upgrade your home audio system, add a
+              new dimension to your gaming setup, or bring your music to life on
+              the go, our speakers have you covered.
+            </p>
+            <button type="button" class="btn btn-lg explore-btn">
+              <div class="text">Explore</div>
+            </button>
+          </div>
 
+          <div class="col-xs-12 col-md-6 speakers">
+            <img src="small jbl.png" alt="" class="speaker1" />
+            <img src="big jbl.png" alt="" class="speaker2" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
