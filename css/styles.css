@@ -643,14 +643,19 @@ input[type="text"] {
     color: #ffffff;
     margin-left: 15%;
   }
-
+  #explore {
+    width: 100%;
+    background: #fff;
+    margin: auto;
+    margin-top: 50px;
+  }
   #explore p {
     font-family: "Mulish";
     font-style: normal;
     font-weight: 500;
     font-size: 19px;
     line-height: 32px;
-    width: 350px;
+    width: 80%;
   }
 
   .speaker1 {
